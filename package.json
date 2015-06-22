@@ -1,0 +1,23 @@
+{
+  "name": "pgconf",
+  "version": "0.1.0",
+  "description": "A class to hold and validate pg connection info",
+  "main": "PGConf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olsonpm/pgconf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olsonpm/pgconf/issues"
+  },
+  "homepage": "https://github.com/olsonpm/pgconf#readme",
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "node-utils": "olsonpm/node-utils"
+  }
+}
