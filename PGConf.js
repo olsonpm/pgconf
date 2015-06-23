@@ -49,10 +49,6 @@ function PGConf(argsObj) {
 
 PGConf.prototype.GetConnection = function GetConnection() {
     return this.connString || this.confObj;
-}
-
-PGConf.prototype.GeneratePGWrapper = function GeneratePGWrapper() {
-    return (new PGWrapper(this));
 };
 
 
